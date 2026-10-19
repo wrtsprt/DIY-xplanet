@@ -1,0 +1,16 @@
+# Generated renders and the symlink pointing at the newest one
+/output/
+/earth_daynight_latest.png
+
+# Scratch data from experimenting with cloud sources
+/raw_data/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Local tool settings
+.claude/settings.local.json
+
+.DS_Store

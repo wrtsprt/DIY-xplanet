@@ -1,0 +1,10 @@
+# diy-xplanet - Earth satellite image downloader and compositor
+#
+# For compositing and day/night blending:
+pillow>=10.0.0   # Image processing
+numpy>=1.24.0    # Array operations for blending
+
+# Optional for advanced reprojection:
+# cartopy>=0.22.0  # Map projections (requires scipy)
+# scipy>=1.11.0    # Scientific computing (required by cartopy)
+
