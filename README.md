@@ -216,3 +216,8 @@ python3 create_daynight_earth.py --clouds --time "2026-01-22 00:00:00"
 - Pillow (PIL)
 - NumPy
 - Internet connection (for downloading textures and cloud data)
+
+## License
+
+Code is MIT-licensed, see [LICENSE](LICENSE). The NASA and EUMETSAT imagery it
+downloads keeps its own terms, listed under Data Sources.
