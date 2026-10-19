@@ -217,6 +217,21 @@ python3 create_daynight_earth.py --clouds --time "2026-01-22 00:00:00"
 - NumPy
 - Internet connection (for downloading textures and cloud data)
 
+## History
+
+This project is a homage to two classic Unix desktop toys.
+
+- **[xearth](https://sources.debian.org/src/xearth/1.0-13/README)** by Kirk
+  Lauritz Johnson (1.0 released in 1995) set the X11 root window to an image of
+  the Earth, shaded for the current position of the Sun.
+- **[Xplanet](https://en.wikipedia.org/wiki/Xplanet)** by Hari Nair grew out of
+  xearth in the late 1990s. It added image maps, cloud overlays and the other
+  planets.
+
+DIY XPlanet keeps their idea but rebuilds it in Python. It uses modern NASA
+textures and live cloud data, and it targets the macOS desktop rather than the
+X11 root window.
+
 ## License
 
 Code is MIT-licensed, see [LICENSE](LICENSE). The NASA and EUMETSAT imagery it
